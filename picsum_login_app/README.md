@@ -1,3 +1,5 @@
+File structure
+
 lib/
 ├─ main.dart
 ├─ repositories/
