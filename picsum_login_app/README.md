@@ -1,16 +1,22 @@
-# picsum_login_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├─ main.dart
+├─ repositories/
+│  └─ pics_repository.dart
+├─ blocs/
+│  ├─ auth/
+│  │  ├─ auth_bloc.dart
+│  │  ├─ auth_event.dart
+│  │  └─ auth_state.dart
+│  └─ pics/
+│     ├─ pics_bloc.dart
+│     ├─ pics_event.dart
+│     └─ pics_state.dart
+├─ screens/
+│  ├─ login_screen.dart
+│  └─ home_screen.dart
+├─ models/
+│  └─ picture.dart
+assets/
+└─ fonts/
+   └─ Montserrat (place ttf files or rely on Google font files)
+pubspec.yaml
